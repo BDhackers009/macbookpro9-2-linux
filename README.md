@@ -2,10 +2,16 @@
 
 ### Installing b43 drivers to enable wifi.
 
-`sudo apt install firmware-b43-installer`
+```sudo apt install firmware-b43-installer```
 
 ### Enabling 5Ghz wifi support
 
 ```
 sudo apt install -y linux-headers-$(uname -r) && sudo apt install -y broadcom-sta-common broadcom-sta-source broadcom-sta-dkms
+```
+
+### installing package to enable backlit keyboard
+
+```
+sudo apt install macfanltd
 ```
